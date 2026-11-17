@@ -1,0 +1,30 @@
+# Credentials, private records and runtime state
+.env
+.env.*
+auth.json
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+public-share-state.json
+ai-end-to-end-result.json
+*접속안내.txt
+공개공유주소.txt
+
+# Local environments and generated installers
+__pycache__/
+*.py[cod]
+.venv/
+.build-env/
+portable-build/
+*.exe
+*.zip
+*.spec
+node_modules/
+.taste-skill/
+jump-game/tools/*
+!jump-game/tools/.gitkeep
+
+# Temporary test output
+portable-*-test.json
+test-results/
